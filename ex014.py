@@ -1,0 +1,5 @@
+'''Converte graus celsius em 
+fahrenheit'''
+c = float(input('Informe e temperatura em °c: '))
+f = 9 * c/5 + 32
+print('A temperatura de {}°C corresponde a {}°F!'.format(c,f))
